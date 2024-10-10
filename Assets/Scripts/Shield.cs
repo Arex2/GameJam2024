@@ -8,6 +8,7 @@ public class Shield : MonoBehaviour
     [SerializeField] private Transform player;
     [SerializeField] private float activeTimer = 10f;
     [SerializeField] private ParticleSystem glowParticles;
+    [SerializeField] private TrailRenderer shieldTrail;
     private float activeCountdownTimer;
     public bool playerHasShield = false;
 
@@ -28,6 +29,7 @@ public class Shield : MonoBehaviour
             GetComponent<CapsuleCollider2D>().enabled = false;
             GetComponent<SpriteRenderer>().enabled = false;
             glowParticles.Stop();
+            shieldTrail.enabled = false;
             //gameObject.SetActive(false);
         }
         else
@@ -35,6 +37,7 @@ public class Shield : MonoBehaviour
             GetComponent<CapsuleCollider2D>().enabled = true;
             GetComponent<SpriteRenderer>().enabled = true;
             glowParticles.Play();
+            shieldTrail.enabled = true;
             //gameObject.SetActive(true);
         }
     }
