@@ -7,6 +7,7 @@ public class Shield : MonoBehaviour
     [SerializeField] private float rotationSpeed = 45f;
     [SerializeField] private Transform player;
     [SerializeField] private float activeTimer = 10f;
+    [SerializeField] private ParticleSystem glowParticles;
     private float activeCountdownTimer;
     public bool playerHasShield = false;
 
@@ -26,12 +27,14 @@ public class Shield : MonoBehaviour
             activeCountdownTimer -= Time.deltaTime;
             GetComponent<CapsuleCollider2D>().enabled = false;
             GetComponent<SpriteRenderer>().enabled = false;
+            glowParticles.Stop();
             //gameObject.SetActive(false);
         }
         else
         {
             GetComponent<CapsuleCollider2D>().enabled = true;
             GetComponent<SpriteRenderer>().enabled = true;
+            glowParticles.Play();
             //gameObject.SetActive(true);
         }
     }
