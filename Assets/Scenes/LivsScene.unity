@@ -502,6 +502,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 27015518}
     m_Modifications:
+    - target: {fileID: 629029153430717869, guid: deeaa23e2cf5dbc449c0707ccc83d96d, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 1541083847509567888, guid: deeaa23e2cf5dbc449c0707ccc83d96d, type: 3}
       propertyPath: m_LocalScale.y
       value: 5.2851
@@ -942,6 +946,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 27015518}
     m_Modifications:
+    - target: {fileID: 629029153430717869, guid: deeaa23e2cf5dbc449c0707ccc83d96d, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 1541083847509567888, guid: deeaa23e2cf5dbc449c0707ccc83d96d, type: 3}
       propertyPath: m_LocalScale.y
       value: 5.0523
@@ -1644,6 +1652,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 27015518}
     m_Modifications:
+    - target: {fileID: 629029153430717869, guid: deeaa23e2cf5dbc449c0707ccc83d96d, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 1541083847509567888, guid: deeaa23e2cf5dbc449c0707ccc83d96d, type: 3}
       propertyPath: m_LocalScale.y
       value: 7.0094995
@@ -19858,6 +19870,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 27015518}
     m_Modifications:
+    - target: {fileID: 629029153430717869, guid: deeaa23e2cf5dbc449c0707ccc83d96d, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 1541083847509567888, guid: deeaa23e2cf5dbc449c0707ccc83d96d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 18.17759
@@ -22403,6 +22419,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 27015518}
     m_Modifications:
+    - target: {fileID: 629029153430717869, guid: deeaa23e2cf5dbc449c0707ccc83d96d, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 1541083847509567888, guid: deeaa23e2cf5dbc449c0707ccc83d96d, type: 3}
       propertyPath: m_LocalScale.y
       value: 5.7162
@@ -54285,7 +54305,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: a34e691aa9a57e94cbbdab783891c417, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -58107,6 +58127,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 27015518}
     m_Modifications:
+    - target: {fileID: 629029153430717869, guid: deeaa23e2cf5dbc449c0707ccc83d96d, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 1541083847509567888, guid: deeaa23e2cf5dbc449c0707ccc83d96d, type: 3}
       propertyPath: m_LocalScale.y
       value: 5.2586994
@@ -59121,6 +59145,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 27015518}
     m_Modifications:
+    - target: {fileID: 629029153430717869, guid: deeaa23e2cf5dbc449c0707ccc83d96d, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 1541083847509567888, guid: deeaa23e2cf5dbc449c0707ccc83d96d, type: 3}
       propertyPath: m_LocalScale.y
       value: 5.0523
@@ -62654,6 +62682,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 27015518}
     m_Modifications:
+    - target: {fileID: 629029153430717869, guid: deeaa23e2cf5dbc449c0707ccc83d96d, type: 3}
+      propertyPath: Loop
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 629029153430717869, guid: deeaa23e2cf5dbc449c0707ccc83d96d, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 629029153430717869, guid: deeaa23e2cf5dbc449c0707ccc83d96d, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1541083847509567888, guid: deeaa23e2cf5dbc449c0707ccc83d96d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 62.547592
@@ -62823,6 +62863,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 27015518}
     m_Modifications:
+    - target: {fileID: 629029153430717869, guid: deeaa23e2cf5dbc449c0707ccc83d96d, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 1541083847509567888, guid: deeaa23e2cf5dbc449c0707ccc83d96d, type: 3}
       propertyPath: m_LocalScale.y
       value: 5.2586994

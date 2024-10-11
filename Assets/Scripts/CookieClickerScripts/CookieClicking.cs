@@ -38,6 +38,7 @@ public class CookieClicking : MonoBehaviour
         //EventController.onHPClick += HPClick;
         //playerHealth.AddHealth();
         EventController.RaiseHPClick();
+        Debug.Log("HP click happens");
     }
 
     private void ShowCookieClicker()

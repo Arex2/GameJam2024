@@ -119,6 +119,7 @@ public class PlayerHealth : MonoBehaviour
 
     public void AddHealth()
     {
+        Debug.Log("Add Health happens  " + currentHealth +  "  " + maxHealth);
         if (currentHealth >= maxHealth)
         {
             currentHealth = maxHealth;

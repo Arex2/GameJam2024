@@ -20,8 +20,8 @@ public class PopupTextHP : MonoBehaviour
 
     public void SpawnText()
     {
-        TMP_Text tempTextBox = Instantiate(Resources.Load<TMP_Text>("PopupText"), Input.mousePosition - (offset/2), transform.rotation) as TMP_Text; //Camera.main.ScreenToWorldPoint(Input.mousePosition)
+        //TMP_Text tempTextBox = Instantiate(Resources.Load<TMP_Text>("PopupText"), Input.mousePosition - (offset/2), transform.rotation) as TMP_Text; //Camera.main.ScreenToWorldPoint(Input.mousePosition)
         //Parent to the panel 
-        tempTextBox.transform.SetParent(this.transform, false);
+        //tempTextBox.transform.SetParent(this.transform, false);
     }
 }
